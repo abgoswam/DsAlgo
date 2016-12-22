@@ -6,7 +6,7 @@ Created on Wed Dec 21 10:31:05 2016
 """
 
 import matplotlib.pyplot as plt
-import pandas
+import pandas as pd
 
 def findSwapValues(a1, a2):
     target = getTarget(a1, a2)
@@ -19,6 +19,8 @@ def findSwapValues(a1, a2):
                     return (a1[i], a2[j])
 
     return (None, None)
+
+# x, y = findSwapValues([2,3], [2,3])
 
 def findDifference(a1, a2):
     target = getTarget(a1, a2)
@@ -57,7 +59,6 @@ def findAlternateUsingSort(a1, a2):
 
         return (None, None)
 
-
 def getTarget(a1, a2):
     sum1 = sum(a1)
     sum2 = sum(a2)
@@ -68,15 +69,16 @@ def getTarget(a1, a2):
         return (sum1 - sum2) / 2
 
 if __name__ == "__main__":
-#    array1 = [4,1,2,1,1,2]
-#    array2 = [3,6,3,3]
+    array1 = [4,1,2,1,1,2]
+    array2 = [3,6,3,3]
 #
 #    array1 = [4,2]
 #    array2 = [3,7,3,3]
 
-    array1 = [4,4]
-    array2 = [3,7,3,3]
+    # array1 = [4,4]
+    # array2 = [3,7,3,3]
 
+    print "Abhishek"
     print getTarget(array1, array2)
 
     (x, y) = findSwapValues(array1, array2)
@@ -87,13 +89,14 @@ if __name__ == "__main__":
 
     (x, y) = findDifference(array1, array2)
     if x == None:
-        print("No values found to swap using 'findDifference'")
+        print("Nooo values found to swap using 'findDifference'")
     else:
         print("Values to Swap : {0}, {1}".format(x, y))
-
 
     (x, y) = findAlternateUsingSort(array1, array2)
     if x == None:
         print("No values found to swap using 'findAlternateUsingSort'")
     else:
         print("Values to Swap : {0}, {1}".format(x, y))
+
+    array1 = [4,3]
