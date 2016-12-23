@@ -6,30 +6,47 @@ Created on Thu Dec 22 10:51:32 2016
 """
 
 class Vertex:
-    def __init__(self, node):
-        self.id = node
+    def __init__(self, vertexid):
+        self.vid = vertexid
         self.visited = False # mark all nodes as unvisited
-        self.adjacent = {}
+        self.adjacentidsweights = {}
       
-    def addNeighbor(self, neighbor, weight = 0):
-        self.adjacent[neighbor] = weight
+    def addNeighbor(self, neighborid, weight = 0):
+        self.adjacentidsweights[neighborid] = weight
       
 class Graph:
     def __init__(self):
         self.numVertices = 0
-        self.vertexDictionary = {}
+        self.vidsVertex = {}
         return
         
-    def addVertex(self, node):
+    def addVertex(self, vertexid):
         self.numVertices = self.numVertices + 1
-        newVertex = Vertex(node)
-        self.vertexDictionary[node] = newVertex
+        self.vidsVertex[vertexid] = Vertex(vertexid)
         return
         
-    def addEdge(self, frm, to, cost = 0):
-        self.vertexDictionary[frm].addNeighbor(to, cost)
-        self.vertexDictionary[to].addNeighbor(frm, cost) #since this is undirected
+    def addEdge(self, frmid, toid, cost = 0):
+        self.vidsVertex[frmid].addNeighbor(toid, cost)
+        self.vidsVertex[toid].addNeighbor(frmid, cost) #since this is undirected
         return
+
+    def displayGraph(self):
+        for vid in self.vidsVertex:
+            print "{0} -> ".format(vid),
+            neighbors = self.vidsVertex[vid].adjacentidsweights
+            for adjid in neighbors:
+                print "{0}:{1}".format(adjid, neighbors[adjid]),
+
+            print ""
+        
+    def dfs(self, vertexid):
+        vertex = self.vidsVertex[vertexid]
+        if vertex.visited is False:
+            print ": {0}".format(vertex.vid),            
+            vertex.visited = True    
+            for adjid in vertex.adjacentidsweights:
+                self.dfs(adjid)
+
         
 if __name__ == "__main__":
     g = Graph()
@@ -43,7 +60,12 @@ if __name__ == "__main__":
     g.addEdge('0','1',4)
     g.addEdge('0','2',1)
     g.addEdge('2','1',2)
-    g.addEdge('2','3',4)
+#    g.addEdge('2','3',4)
     g.addEdge('4','1',2)
-    g.addEdge('4','3',4)
+#    g.addEdge('4','3',4)
+
+    print "Graph :"    
+    g.displayGraph()
     
+    print "DFS ",
+    g.dfs('0')
