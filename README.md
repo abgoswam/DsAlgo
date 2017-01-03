@@ -2,11 +2,11 @@
   - hashmap
 2. 02mergesort
   - divide and conquer
-3.
-4.
-5.
-6.
-7.
+3. tbd
+4. tbd
+5. tbd
+6. tbd
+7. tbd
 8. 08graphtraversal
   - stack, queue
 9. 09queue
