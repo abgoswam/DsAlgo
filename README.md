@@ -18,3 +18,6 @@
   - stack, queue
 10. [10onlinepoker](10onlinepoker)
   - recursive to iterative
+11. [11countinversions](11countinversions)
+	- divide and conquer
+	- extension to mergesort
