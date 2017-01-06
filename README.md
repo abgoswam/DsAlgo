@@ -20,4 +20,8 @@
   - recursive to iterative
 11. [11countinversions](11countinversions)
 	- divide and conquer
-	- extension to mergesort
+	- extension to mergesort with sorting
+12. [12applestockprice](12applestockprice)
+	- save state
+	- pro-process
+	- using itertools
