@@ -23,5 +23,6 @@
 	- extension to mergesort with sorting
 12. [12applestockprice](12applestockprice)
 	- save state
-	- pro-process
+	- pre-process
 	- using itertools
+	- greedy ("Suppose we could come up with the answer in one pass through the input, by simply updating the 'best answer so far' as we went. What additional values would we need to keep updated as we looked at each item in our set, in order to be able to update the 'best answer so far' in constant time?")
