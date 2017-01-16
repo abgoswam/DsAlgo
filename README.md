@@ -33,4 +33,6 @@
   - greedy using state information
 14. [14heapsort](14heapsort)
   - heap data structure
-  - fencepost problems. 
+  - fencepost problems.
+15. [15bst](15bst)
+	- binary search tree 
