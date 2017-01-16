@@ -2,8 +2,10 @@
   - hashmap
 2. [02mergesort](02mergsort)
   - divide and conquer
-3. tbd
-4. tbd
+3. [03linkedlist](03linkedlist)
+	- linked list data structure
+4. [04quicksort](04quicksort)
+	- sorting
 5. tbd
 6. tbd
 7. [07maxcontiguoussubsequence](07maxcontiguoussubsequence)
