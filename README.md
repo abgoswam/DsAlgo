@@ -35,4 +35,14 @@
   - heap data structure
   - fencepost problems.
 15. [15bst](15bst)
-	- binary search tree 
+	- binary search tree
+16. [16encodedecodestrings/](16encodedecodestrings/)
+	- Google Interviews Q
+	- Python lists, .append, .join
+	- Python None v/s False
+	- Think before Code
+
+
+
+
+ 
