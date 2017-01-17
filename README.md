@@ -41,6 +41,9 @@
 	- Python lists, .append, .join
 	- Python None v/s False
 	- Think before Code
+17. [17maxequality](17maxequality)
+    - foobar
+    - find pattern through trials.
 
 
 
