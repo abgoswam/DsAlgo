@@ -41,13 +41,12 @@
 	- Python lists, .append, .join
 	- Python None v/s False
 	- Think before Code
-17. [17stdinstdout](17stdinstdout)
+17. [17maxequality](17maxequality)
+    - foobar
+    - find pattern through trials.
+18. [18stdinstdout](18stdinstdout)
 	- raw_input() for Python 2.7 v/s input() Python3.0
-18. [18nthnodefromend](18nthnodefromend)
+19. [19nthnodefromend](19nthnodefromend)
 	- Think multiple pointers to pre-process state. 
 	- Using Dummy Node at beginning may be helpful. 
 
-
-
-
- 
