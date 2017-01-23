@@ -41,6 +41,11 @@
 	- Python lists, .append, .join
 	- Python None v/s False
 	- Think before Code
+17. [17stdinstdout](17stdinstdout)
+	- raw_input() for Python 2.7 v/s input() Python3.0
+18. [18nthnodefromend](18nthnodefromend)
+	- Think multiple pointers to pre-process state. 
+	- Using Dummy Node at beginning may be helpful. 
 
 
 
