@@ -49,4 +49,11 @@
 19. [19nthnodefromend](19nthnodefromend)
 	- Think multiple pointers to pre-process state. 
 	- Using Dummy Node at beginning may be helpful. 
+20. [20coinchange](20coinchange)
+    - Dynamic Programming. Think Scanning..
+    - Implementation of Multi-Dimensional Lists (without numpy)
+
+
+
+
 
