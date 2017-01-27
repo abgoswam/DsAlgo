@@ -52,6 +52,10 @@
 20. [20coinchange](20coinchange)
     - Dynamic Programming. Think Scanning..
     - Implementation of Multi-Dimensional Lists (without numpy)
+21. [21superbalanced](21superbalanced)
+	- DFS on Trees
+	- Dont hesitate in maintaining state to solve problems.
+	- Iterative v/s Recursive. Stacks and Queues are cheap for iterative versions.
 
 
 
