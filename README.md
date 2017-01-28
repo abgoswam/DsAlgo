@@ -56,8 +56,9 @@
 	- DFS on Trees
 	- Dont hesitate in maintaining state to solve problems.
 	- Iterative v/s Recursive. Stacks and Queues are cheap for iterative versions.
-
-
+22. [22arrayrotation](22arrayrotation)
+	- Bentley's Programming Pearls
+	- Array Indexing and FencePost issues
 
 
 
