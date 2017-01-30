@@ -63,9 +63,11 @@
     - To simplify, start with brute force. Think how to apply patterns : sort,scan,cumulative,hashing,greedy,divideconquer
     - Think before code. Slow down urge to code rightaway. Think of alternate strategies.
 24. [24friendcircles](24friendcircles)
+    - (Two Sigma Pb)
     - Connected Components Problem
     - Converted adjacency matrix to a proper graph classes.
 25. [25stringchains](25stringchains)
+    - (Two Sigma Pb)
     - Dynamic Programming. Nice Problem.
     - Was hitting 1 error on a hidden test case.
 
