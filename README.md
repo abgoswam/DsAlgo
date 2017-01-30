@@ -59,6 +59,11 @@
 22. [22arrayrotation](22arrayrotation)
 	- Bentley's Programming Pearls
 	- Array Indexing and FencePost issues
+23. [23stockmaximize](23stockmaximize)
+    - To simplify, start with brute force. Think how to apply patterns : sort,scan,cumulative,hashing,greedy,divideconquer
+    - Think before code. Slow down urge to code rightaway. Think of alternate strategies.
+
+
 
 
 
