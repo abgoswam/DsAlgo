@@ -36,6 +36,7 @@
   - fencepost problems.
 15. [15bst](15bst)
 	- binary search tree
+    - Some nice BST properties.
 16. [16encodedecodestrings/](16encodedecodestrings/)
 	- Google Interviews Q
 	- Python lists, .append, .join
