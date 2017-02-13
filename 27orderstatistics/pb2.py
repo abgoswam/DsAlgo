@@ -5,6 +5,8 @@ Created on Sun Feb 12 17:02:57 2017
 @author: abgoswam
 """
 
+# http://blog.teamtreehouse.com/passing-google-interview-without-computer-science-degree
+
 import random
 
 arr = []

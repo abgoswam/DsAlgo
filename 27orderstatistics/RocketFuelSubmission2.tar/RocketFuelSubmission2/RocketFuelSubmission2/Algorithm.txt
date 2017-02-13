@@ -1,0 +1,10 @@
+Submission 2:
+------------
+
+O(log n) time complexity.
+O(1) space
+
+We can solve the problem in O(log n) time by noting that the arrays given to us are sorted.The idea is to use an approach similar to 'binary search'. 
+After each comparison, we increment the appropriate index by twice its value.
+
+Note: We have to take care of border cases where incrementing the indices (i and j in our code) by twice the value takes us beyond the median_index. In such cases we use a separate variable (k and l in the code) to maintain previous state information. After that we re-initialize the indices and kickstart the increment process again.

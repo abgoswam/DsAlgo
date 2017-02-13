@@ -1,0 +1,20 @@
+(1) Median of Arrays Problem
+
+Input:
+You have given two integer arrays, A and B, of arbitrary lengths. For this assignment assume both |A| and |B| are small enough to fit in main memory. Further, both A and B are individually sorted in ascending order.
+
+Problem:
+Find median of A Union B. In other words what is the median of numbers if we put all elements of A and B together? For even numbers median is average of two middle numbers.
+
+Tasks:
+A. Create an ALGORITHM file and write in simple word algorithm used to solve this problem. Also write worst case (big O) time and space complexity of your algorithm used. Provide solution that is better or at least O(1) space (not including size of arrays itself) and O(N) time complexity.
+
+B. Write a program (language of your choice) that takes input from a flat text file and outputs to stdout a median value.
+File format:
+A=1,4,5,6
+B=3,6,7,9
+
+C. Write README so explain how to execute your code
+
+Please email all files required to run your code along with ALGORITHM and README file.
+
