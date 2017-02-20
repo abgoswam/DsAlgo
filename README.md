@@ -73,6 +73,10 @@
     - Was hitting 1 error on a hidden test case.
 26.	[26catalannumbers](26catalannumbers)
 	- Catalan numbers
+27.	[27orderstatistics](27orderstatistics)
+	- Median Of Medians
+	- Rocket Fuel Question.
+28.	[28lca](28lca) 
 
 
 
