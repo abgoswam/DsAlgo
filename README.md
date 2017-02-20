@@ -74,8 +74,8 @@
 26.	[26catalannumbers](26catalannumbers)
 	- Catalan numbers
 27.	[27orderstatistics](27orderstatistics)
-	- Median Of Medians
-	- Rocket Fuel Question.
+	- (Rocket Fuel Pb)
+	- Divide and Conquer. Is there a way to exploit some property of the problem so we have to solve a smaller problem ? 
 28.	[28lca](28lca) 
 
 
